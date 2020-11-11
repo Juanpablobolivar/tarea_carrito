@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./others/css/bootstrap.min.css">
+    <link href="./others/css/estilo.css" rel="stylesheet">
+    <script src="./others/js/jquery-3.4.1.min.js"></script>
+    <script src="./others/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <title>Hogar</title>
+</head>
+<body>
+ 
+    <header>
+      <div class="container">
+        <div class="row align-items-stretch justify-content-between">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+             <h1>Articulos de la Gran Guerra</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+              <img src="./others/img/carrito.png" class="nav-link dropdown-toggle img-fluid" height="70px"
+                      width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                              aria-expanded="false"></img>
+      <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+          <table id="lista-carrito" class="table">
+                      <thead>
+                       <tr>
+                         <th>PRODUCTO</th>
+                         <th>IMAGEN</th>
+                         <th>PRECIO</th>
+                      </tr>
+                     </thead>
+             </table>
+        <a href="#" id="vaciar-carrito" class="btn btn-success btn-block">Eliminar productos</a>
+        <a href="#" id="procesar-pedido" class="btn btn-dark btn-block">Hacer la compra</a>
+              </div>
+            </li>
+          </ul>       
+        </nav>
+       </div>      
+    </header>
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+          <h1>BIENVENIDOS A LA GRAN TIENDA!!!</h1>
+        </section>
+      
+        <div class="album py-5 bg-light">
+          <div class="container">
+      
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top"></svg>
+                  <img src="./others/img/potenciascentrales.jpg" width="400" height="250">
+                  <div class="card-body">
+                    <p class="card-text">Articulos variados de las potencias centrales.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <form action="index.html">
+                            <input type="submit" class="btn btn-sm btn-outline-secondary" value="Ver producto" />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                 <svg class="bd-placeholder-img card-img-top"></svg>
+                 <img src="./others/img/entente.jpg"width="250" height="250">
+                  <div class="card-body">
+                    <p class="card-text">Articulos variados de las potencias de la entente.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <form action="indexx.html">
+                            <input type="submit" class="btn btn-sm btn-outline-secondary" value="Ver producto" />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; Juan Pablo Bolívar Marín 2020</p>
+    </footer>
+  </div>
+</body>
+</html>

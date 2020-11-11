@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./others/css/bootstrap.min.css">
+    <link href="./others/css/estilo.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <title>Productos Entente</title>
+</head>
+<body>
+  <!-- CARRITO -->
+    <header>
+    <div class="container">
+        <div class="row align-items-stretch justify-content-between">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+                <h1>Articulos de la Gran Guerra</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <img src="others/img/carrito.png" class="nav-link dropdown-toggle img-fluid" height="70px"
+                                width="70px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"></img>
+                            <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                                <table id="lista-carrito" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="btn btn-primary btn-info">Eliminar productos</a>
+                                <a href="#" id="procesar-pedido" class="btn btn-danger btn-dark">Hacer la compra</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+   </header>
+
+      <!-- LISTA DE PRODUCTOS -->
+      <link href="pricing.css" rel="stylesheet">
+    </head>
+    <body>
+  
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">PRODUCTOS DE LA ENTENTE</h1>
+  </div>
+  <div class="container" id="lista-productos">
+      <div class="card-deck mb-3 text-center">     
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Casco Britanico</h4>
+            </div>
+            <div class="card-body">
+                <img src="others/img/cascobritanico.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$<span class="">125</span></h1>
+         <ul class="list-unstyled mt-3 mb-4">
+               <li>Casco del ejercito Britanico</li>
+               <li>1914-1958</li>
+               <li>Imperio Britanico</li>
+                </ul>
+                <a href="" class="btn btn-block btn-info agregar-carrito" data-id="1">Comprar</a>
+            </div>
+        </div>
+        <div class="container" id="lista-productos">
+            <div class="card-deck mb-3 text-center">     
+              <div class="card mb-4 shadow-sm">
+                  <div class="card-header">
+                      <h4 class="my-0 font-weight-bold">Cañon de 75 mm modelo 1897</h4>
+                  </div>
+                  <div class="card-body">
+                      <img src="others/img/cañonfrances.jpg" class="card-img-top">
+                      <h1 class="card-title pricing-card-title precio">$ <span class="">1449</span></h1>
+               <ul class="list-unstyled mt-3 mb-4">
+                          <li></li>
+                          <li>Cañon balistico Frances</li>
+                          <li>1897-1918</li>
+                          <li>Republica de Francia</li>
+                      </ul>
+                      <a href="" class="btn btn-block btn-info agregar-carrito" data-id="2">Comprar</a>
+                  </div>
+              </div>
+              <div class="container" id="lista-productos">
+                <div class="card-deck mb-3 text-center">     
+                  <div class="card mb-4 shadow-sm">
+                      <div class="card-header">
+                          <h4 class="my-0 font-weight-bold">Fusil Mosin-Nagant</h4>
+                      </div>
+                      <div class="card-body">
+                          <img src="others/img/fusilnagant.jpg" class="card-img-top">
+                          <h1 class="card-title pricing-card-title precio">$ <span class="">790</span></h1>
+                      <ul class="list-unstyled mt-3 mb-4">
+                              <li>Fusil Ruso</li>
+                              <li>1891-1940</li>
+                              <li>Imperio Ruso</li>
+                          </ul>
+                          <a href="" class="btn btn-block btn-info agregar-carrito" data-id="3">Comprar</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">&copy; Juan Pablo Bolívar Marín 2020</p>
+    </footer>
+  </div>
+  
+    <script src="./others/js/popper.min.js"></script>
+    <script src="./others/js/jquery-3.4.1.min.js"></script>
+    <script src="./others/js/bootstrap.min.js"></script>
+    <script src="others/js/carrito.js"></script>
+    <script src="others/js/pedido.js"></script>
+    
+</body>
+</html>
